@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.svg">
+
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="header_app container">
+                <h1>Random Game</h1>
+                <div class="btn_group">
+                    <div class="btn see">See Leaderboard</div>
+                    <div class="btn restart">Start new game</div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="modal_window disable">
+                    <div class="modal_window_background"></div>
+                        <div class="modal_window_content">
+                            <div class="content_container">
+                            <div class="message">Game Over</div>
+                            <form id="input_form" action="">
+                                <div class="input_feild"><label for="player">Name: </label><input id="input_name" name="player" type="text" placeholder = "Print your name" value = "Player1" required></div>
+                                <div class="result">Your result: <span id="score"></span> attempt</div>
+                                <button type="submit" class="btn save">Save Result</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader_board disable">
+                    <div class="modal_window_background"></div>
+                        <div class="leader_board_content">
+                            <div class="content_container">
+                                <div class="message">LEADERBOARD</div>
+                                <div class="title">
+                                        <div class="number">N</div>
+                                        <div class="player_name">Player</div>
+                                        <div class="player_attempt">Attempt</div>
+                                    </div>
+                                <div class="leader_board_data">
+                                </div>
+                                <div class="btn close">Close</div>
+                            </div>
+                        </div>
+                </div>
+                <div class="content">
+                    <div class="game_card" data-description="dog">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/dog.svg" alt="dog">
+                    </div>
+                    <div class="game_card" data-description="hamster">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/hamster.svg" alt="hamster">
+                    </div>
+                    <div class="game_card" data-description="sheep">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/sheep.svg" alt="sheep">
+                    </div>
+                    <div class="game_card" data-description="ladybug">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/ladybug.svg" alt="ladybug">
+                    </div>
+                    <div class="game_card" data-description="hamster">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/hamster.svg" alt="hamster">
+                    </div>
+                    <div class="game_card" data-description="snail">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/snail.svg" alt="snail">
+                    </div>
+                    <div class="game_card" data-description="dog">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/dog.svg" alt="dog">
+                    </div>
+                    <div class="game_card" data-description="ladybug">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/ladybug.svg" alt="ladybug">
+                    </div>
+                    <div class="game_card" data-description="snail">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/snail.svg" alt="snail">
+                    </div>
+                    <div class="game_card" data-description="monkey">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/monkey.svg" alt="monkey">
+                    </div>
+                    <div class="game_card" data-description="hare">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/hare.svg" alt="hare">
+                    </div>
+                    <div class="game_card" data-description="hare">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/hare.svg" alt="hare">
+                    </div>
+                    <div class="game_card" data-description="monkey">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/monkey.svg" alt="monkey.">
+                    </div>
+                    <div class="game_card" data-description="sheep">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/sheep.svg" alt="sheep">
+                    </div>
+                    <div class="game_card" data-description="sloth">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/sloth.svg" alt="sloth">
+                    </div>
+                    <div class="game_card" data-description="sloth">
+                        <img class="face_side" src="assets/svg/face_icon.svg" alt="face_icon">
+                        <img class="back_side" src="assets/svg/sloth.svg" alt="sloth">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="app_footer footer">
+            <div class="footer__container container">
+                <a href="https://rs.school/" class="footer-link" target="_blank">
+                    <img src="assets/rs_school_js.svg" alt="RS School logo"
+                    width="100" class="footer-link">
+                </a>
+                <div class="footer__data">
+                    October 2023
+                </div>
+                <a href="https://github.com/tyulari" class="footer-link" target="_blank">
+                    <img src="assets/icons-github-48.png" alt="GitHub logo"
+                    width="50" height="50"
+                    class="footer-link">My GitHub
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src = "js/main.js"></script>
+</body>
+</html>

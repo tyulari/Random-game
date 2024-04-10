@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(0.39 0 0 0.39 200 228.13)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-256, -328)" d="M 442.8 361.82 C 434 336.72 413.49 324 393.69 311.7 c -17.23 -10.71 -33.5 -20.83 -44.14 -39 C 320.22 222.37 304.11 192 256.06 192 s -64.21 30.38 -93.61 80.69 c -10.65 18.21 -27 28.35 -44.25 39.08 c -19.8 12.31 -40.27 25 -49.1 50.05 A 78.06 78.06 0 0 0 64 390.11 C 64 430.85 96.45 464 132.4 464 s 83.31 -18.13 123.76 -18.13 S 343.31 464 379.71 464 S 448 430.85 448 390.11 A 78.3 78.3 0 0 0 442.8 361.82 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 128.13 184.38)"  >
+<ellipse style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" rx="56" ry="72" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 171.88 146.88)"  >
+<ellipse style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" rx="56" ry="72" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 228.13 146.88)"  >
+<ellipse style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" rx="56" ry="72" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 271.88 184.38)"  >
+<ellipse style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" rx="56" ry="72" />
+</g>
+</svg>
